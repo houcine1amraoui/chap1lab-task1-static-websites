@@ -11,7 +11,11 @@ app.get("/", function (req, res) {
   res.sendFile(path.resolve(__dirname, "pages", "index.html"));
 });
 
-const PORT = 8080;
+app.get("/about", function (req, res) {
+  res.sendFile(path.resolve(__dirname, "pages", "about.html"));
+});
+
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
