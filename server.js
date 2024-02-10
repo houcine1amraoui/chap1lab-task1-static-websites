@@ -15,7 +15,7 @@ app.get("/about", function (req, res) {
   res.sendFile(path.resolve(__dirname, "pages", "about.html"));
 });
 
-const PORT = 3000;
+const PORT = 1000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
