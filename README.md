@@ -17,5 +17,5 @@ In this task, you will get a demonstration of a static website in which a web se
 4. Check out the response status code using the network tool in the browser when the page loads for the first time and in the second. What have you noticed? Why is that?
 5. Create another static web page called “test.html”, put some web content in it, then add a route to deliver it.
 6. Restart the server and navigate to the “test” page.
-7. Now, go to the project folder via Windows explorer an open index.html file directly through the browser. Why the web page has been displayed normally without running the server? What protocol has been used in such a case? FTP (File Transfer Protocol).
+7. Now, go to the project folder via Windows explorer an open index.html file directly through the browser. Why the web page has been displayed normally without running the server? What protocol has been used in such a case?
 8. Explore and navigate through the website using Postman API client.
