@@ -7,6 +7,7 @@ app.use(express.json());
 app.use("/css", express.static(path.resolve(__dirname, "pages", "css")));
 app.use("/js", express.static(path.resolve(__dirname, "pages", "js")));
 
+//
 app.get("/", function (req, res) {
   res.sendFile(path.resolve(__dirname, "pages", "index.html"));
 });
